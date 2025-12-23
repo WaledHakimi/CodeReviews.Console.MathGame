@@ -12,7 +12,7 @@ namespace FinalMathGame
         static Random random = new Random();
         internal static void Main()
         {
-            int score = 0;
+            
             var date = DateTime.UtcNow;
             Console.WriteLine("Enter your name");
             var name = Console.ReadLine();
